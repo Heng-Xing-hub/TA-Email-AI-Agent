@@ -1,0 +1,6 @@
+# TA Email Agent dependencies
+openai>=1.0.0
+python-dotenv>=1.0.0
+# Optional: for better memory retrieval (uncomment if needed)
+# sentence-transformers>=2.2.0
+# chromadb>=0.4.0

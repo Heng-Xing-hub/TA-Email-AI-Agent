@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "dba41c0c",
+    "raw_email": "Good morning,\nI was wondering if I could submit the homework early for set 9 since I’m not going to be in class on Friday and if so where would I submit it?\nThank you,\nChloe Patrick, STA 4442",
+    "summary": "Good morning,",
+    "intent": "other",
+    "topic": "other",
+    "decision": "direct_reply",
+    "reply_text": "Hi,\n\nThanks for reaching out about: Good morning,\n\nIf you have more questions, feel free to reply or come to office hours.\n\nBest,\nTA",
+    "corrected_reply": null
+  },
+  {
+    "case_id": "cf4e1494",
+    "raw_email": "Good morning,\nI was wondering if I could submit the homework early for set 9 since I’m not going to be in class on Friday and if so where would I submit it?\nThank you,\nChloe Patrick, STA 4442",
+    "summary": "The student is inquiring about submitting homework early due to absence from class.",
+    "intent": "extension_request",
+    "topic": "extension",
+    "decision": "direct_reply",
+    "reply_text": "Subject: Re: Homework Submission for Set 9\n\nGood morning, Chloe,\n\nThank you for your email. Unfortunately, extensions require prior approval, and students must request them at least 24 hours before the deadline with a documented reason. If you would like to request an extension for set 9, please do so as soon as possible.\n\nIf your request is approved, you can submit your homework during my office hours or place it in my mailbox in the main office (OSB210).\n\nIf you have any further questions, feel free to reply or come to office hours.\n\nBest,  \n[Your Name]  \nTA, STA 4442",
+    "corrected_reply": null
+  },
+  {
+    "case_id": "e151343e",
+    "raw_email": "Good Evening,",
+    "summary": "",
+    "intent": "other",
+    "topic": "other",
+    "decision": "direct_reply",
+    "reply_text": "Subject: Re: Homework Submission Inquiry\n\nGood Evening,\n\nThank you for reaching out. Unfortunately, extensions require prior approval, and students must request them at least 24 hours before the deadline with a documented reason. If you would like to request an extension, please provide the necessary documentation.\n\nIf you have more questions, feel free to reply or come to office hours.\n\nBest,  \n[Your Name]  \nTA",
+    "corrected_reply": "I just received my grade for set 7 and realized I didn't turn it in on the day it was due. We had a test that day and I completely forgot that we had to turn it in. I have the set 7 homework in my notebook, could I please turn it in for credit, I am so sorry  I forgot to turn it in"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "course_name": "STA4442 Introduction to Probability and Statistics",
+  "policies": {
+    "late_submission": "Late assignments lose 10% per day for the first 3 days. Starting on day 4, an additional 10% is deducted each day (e.g., 40% on day 4, 50% on day 5). If the assignment is not submitted within 7 days after the deadline, it receives no credit.",
+    "extension": "Extensions require prior approval. Students must request at least 24 hours before the deadline with a documented reason. Approved extensions may be submitted during my office hours or placed in my mailbox in the main office (OSB210).",
+    "office_hours": "Office hours: Tue/Thu 1:00-2:15pm in Room OSB408. No appointment needed for first-come-first-served.",
+    "assignment_dropoff": "If you are not available to submit your assignment on Friday, you may submit it in advance during my office hours in OSB408.",
+    "regrading": "Regrade requests must be submitted within 1 week of grade release. Include specific question and justification.",
+    "academic_integrity": "All work must be original. Collaboration is allowed only where explicitly stated in assignment."
+  },
+  "escalation_rules": [
+    {
+      "id": "ESC_GRADE_DISPUTE",
+      "condition": "grade_dispute",
+      "description": "Grade disputes or regrade requests must be escalated to instructor",
+      "action": "escalate_to_instructor"
+    },
+    {
+      "id": "ESC_ACADEMIC_MISCONDUCT",
+      "condition": "academic_integrity_concern",
+      "description": "Suspected academic integrity violations",
+      "action": "escalate_to_instructor"
+    },
+    {
+      "id": "ESC_SPECIAL_ACCOMMODATION",
+      "condition": "special_accommodation",
+      "description": "Requests for special accommodation (disability, etc.)",
+      "action": "escalate_to_instructor"
+    },
+    {
+      "id": "ESC_ENROLLMENT",
+      "condition": "enrollment_issue",
+      "description": "Enrollment, add/drop, or registration issues",
+      "action": "escalate_to_registrar"
+    },
+    {
+      "id": "ESC_MAKEUP_EXAM",
+      "condition": "makeup_exam_request",
+      "description": "Requests for a makeup exam must be reviewed and approved by the instructor before the TA can confirm any arrangement",
+      "action": "escalate_to_instructor"
+    }
+  ]
+}
